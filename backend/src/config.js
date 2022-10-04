@@ -8,12 +8,12 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "CryptoSwarm AI";
-const description = `CryptoSwarm AI is a collective Super Intelligence for predicting crypto assets using hundreds of human forecasters and the power of Swarm AI."
+const description = `CryptoSwarm AI is a collective Super Intelligence for predicting crypto assets using hundreds of human forecasters and the power of Swarm AI.
 
 Go to https://www.cryptoswarm.ai/ for more information, and join our Discord: https://discord.gg/4g2ccHE8cv
 
 The Terms of Service of this NFT can be found here: 
-https://docs.google.com/document/d/1QeLs4IJgUFnuJY0GEeUUaaFhg8LqpJMH`;
+https://www.cryptoswarm.ai/about-7`;
 
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -59,15 +59,16 @@ const CONTRACT_SYMBOL = 'CSAI';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xcF196E948cB0A1f8fD69C1CF7ad6098710788AF4';
 const TREASURY_ADDRESS = '0xd2662aaab843e6ff7d3a220bb35dce726f7dbf60';
-const MAX_SUPPLY = 320; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MAX_SUPPLY = 350; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.01; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const TEAM_RESERVE = 50; // How many of the max supply can we mint for free
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-09-13T10:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-10-04T20:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-09-14T10:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-10-04T19:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xd2662aaab843e6ff7d3a220bb35dce726f7dbf60"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
@@ -206,5 +207,6 @@ module.exports = {
   PUBLIC_MINT_START_DATE,
   BASE_URI,
   PREREVEAL_TOKEN_URI,
-  PRESALE_WHITELISTED_ADDRESSES
+  PRESALE_WHITELISTED_ADDRESSES,
+  TEAM_RESERVE
 };
