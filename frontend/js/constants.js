@@ -1,4 +1,4 @@
-const contractAddress = "0xCAbc9E898be3BF465040Dd752AcACE64B0c421b2"; // Replace with your own contract address
+const contractAddress = "0x318869ef8DfbF0BE814bcDc63244152be6D43703"; // Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the CryptoSwarm AI NFT Project";
