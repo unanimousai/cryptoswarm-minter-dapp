@@ -184,6 +184,7 @@ async function loadInfo() {
       const merkleData = await fetch(
         `/.netlify/functions/merkleProof/?wallet=${window.address}&chain=${chain}&contract=${contractAddress}`
       );
+      console.log(merkleData);
       const merkleJson = await merkleData.json();
       const whitelisted = await contract.methods.isWhitelisted(window.address, merkleJson).call();
       if(!whitelisted) {
@@ -196,7 +197,7 @@ async function loadInfo() {
         mintContainer.classList.remove('hidden');
       }
     } catch(e) {
-      // console.log(e);
+      console.log(e);
       mainText.innerText = p_presale_mint_already_minted;
       actionButton.innerText = button_presale_already_minted;
     }
