@@ -57,20 +57,20 @@ const CHAIN = 'goerli'; // only rinkeby, polygon, or ethereum
 const CONTRACT_NAME = 'CryptoSwarm AI';
 const CONTRACT_SYMBOL = 'CSAI';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xcF196E948cB0A1f8fD69C1CF7ad6098710788AF4';
+const OWNER_ADDRESS = '0xd2662aaab843e6ff7d3a220bb35dce726f7dbf60';
 const TREASURY_ADDRESS = '0xd2662aaab843e6ff7d3a220bb35dce726f7dbf60';
 const MAX_SUPPLY = 350; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.01; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 const TEAM_RESERVE = 50; // How many of the max supply can we mint for free
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-10-04T20:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-10-10T20:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-10-04T19:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-10-10T19:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xd2662aaab843e6ff7d3a220bb35dce726f7dbf60"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0xcF196E948cB0A1f8fD69C1CF7ad6098710788AF4"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = [

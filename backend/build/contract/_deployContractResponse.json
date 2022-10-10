@@ -1,9 +1,9 @@
 {
   "response": "OK",
   "chain": "goerli",
-  "transaction_hash": "0x5b8835b9bfaf9cf0b88058a4d9ec780ddc4e6d87ca4ee0fd538fa3eaccb5a081",
-  "transaction_external_url": "https://goerli.etherscan.io/tx/0x5b8835b9bfaf9cf0b88058a4d9ec780ddc4e6d87ca4ee0fd538fa3eaccb5a081",
-  "owner_address": "0xcF196E948cB0A1f8fD69C1CF7ad6098710788AF4",
+  "transaction_hash": "0x72bb1e1296b46bde18dd872b14d2a8f48be071b02fe1b8f05e97a897d5ca81fc",
+  "transaction_external_url": "https://goerli.etherscan.io/tx/0x72bb1e1296b46bde18dd872b14d2a8f48be071b02fe1b8f05e97a897d5ca81fc",
+  "owner_address": "0xd2662aaab843e6ff7d3a220bb35dce726f7dbf60",
   "name": "CryptoSwarm AI",
   "symbol": "CSAI"
 }
