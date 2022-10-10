@@ -1,5 +1,5 @@
-const contractAddress = "0x318869ef8DfbF0BE814bcDc63244152be6D43703"; // Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
+const contractAddress = "0x16F2166771D5F70BCDBcEA3fa0570EE28f574Db3"; // Replace with your own contract address
+const chain = 'goerli'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the CryptoSwarm AI NFT Project";
 const welcome_h2 = "Connect to MetaMask to Get Started";
