@@ -17,7 +17,7 @@ if (!START || !END) {
 }
 
 const COLLECTION_BASE_URL =
-  CHAIN.toLowerCase() === "rinkeby"
+  CHAIN.toLowerCase() === "goerli"
     ? `https://testnets.opensea.io/assets`
     : "https://opensea.io/assets/matic";
 
