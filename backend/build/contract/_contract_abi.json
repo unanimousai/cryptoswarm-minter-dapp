@@ -51,7 +51,7 @@
   },
   {
     "inputs": [],
-    "name": "TransferFromIncorrectOwner",
+    "name": "TransferFromIncorreoctOwner",
     "type": "error"
   },
   {
