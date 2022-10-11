@@ -183,10 +183,11 @@ async function loadInfo() {
     
     try {
       // CHECK IF WHITELISTED
+      console.log("Getting Merkledata...");
       const merkleData = await fetch(
         `/.netlify/functions/merkleProof/?wallet=${window.address}&chain=${chain}&contract=${contractAddress}`
       );
-      console.log(merkleData);
+      console.log("Obtained Merkledata: ", merkleData);
       const merkleJson = await merkleData.json();
       const whitelisted = await contract.methods.isWhitelisted(window.address, merkleJson).call();
       if(!whitelisted) {

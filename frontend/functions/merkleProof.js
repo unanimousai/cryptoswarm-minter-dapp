@@ -32,6 +32,7 @@ exports.handler = async (event, context) => {
   console.log("JSON contract: ", json.contracts);
   console.log("JSON matches: ", json.contracts.filter(contract => contract.address.toLowerCase() === contract_address.toLowerCase()));
   const contractInfo = json.contracts.filter(contract => contract.address.toLowerCase() === contract_address.toLowerCase());
+  console.log("contractInfo: ", contractInfo[0]);
   const merkleProofs = contractInfo[contractInfo.length-1].merkle_proofs || {};
   const merkleProof = merkleProofs[wallet.toLowerCase()] || [];
 
