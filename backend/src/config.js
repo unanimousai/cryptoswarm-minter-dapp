@@ -9,11 +9,10 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "CryptoSwarm AI";
 const description = `CryptoSwarm AI is a collective Super Intelligence for predicting crypto assets using hundreds of human forecasters and the power of Swarm AI.
-
+ 
 Go to https://www.cryptoswarm.ai/ for more information, and join our Discord: https://discord.gg/4g2ccHE8cv
-
-The Terms of Service of this NFT can be found here: 
-https://www.cryptoswarm.ai/about-7`;
+ 
+The Terms of Service of this NFT can be found in the NFT’s IPFS (https://ipfs.io/ipfs/bafkreibx363xs2jyvyrunk2rweaijr25w7qroy5auirpugco5qdl3dc3iy) and on the CryptoSwarm website here: https://www.cryptoswarm.ai/legal`;
 
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -57,8 +56,8 @@ const CHAIN = 'ethereum'; // only rinkeby, polygon, or ethereum
 const CONTRACT_NAME = 'CryptoSwarm AI';
 const CONTRACT_SYMBOL = 'CSAI';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xd2662aaab843e6ff7d3a220bb35dce726f7dbf60';
-const TREASURY_ADDRESS = '0xd2662aaab843e6ff7d3a220bb35dce726f7dbf60';
+const OWNER_ADDRESS = '0xcF196E948cB0A1f8fD69C1CF7ad6098710788AF4';  /// TODO: This is Unanimous' wallet, but should be Cryptonomous': 0xcF196E948cB0A1f8fD69C1CF7ad6098710788AF4
+const TREASURY_ADDRESS = '0xcF196E948cB0A1f8fD69C1CF7ad6098710788AF4';  /// TODO: This is Unanimous' wallet, but should be Cryptonomous': 0xcF196E948cB0A1f8fD69C1CF7ad6098710788AF4
 const MAX_SUPPLY = 350; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 1; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
@@ -70,7 +69,7 @@ const PUBLIC_MINT_START_DATE = "2022-10-14T20:00:00+00:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-10-14T19:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xcF196E948cB0A1f8fD69C1CF7ad6098710788AF4"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0xcdC2803abF895c32F1EcCBfca6a78CcEFB7d786B"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = [

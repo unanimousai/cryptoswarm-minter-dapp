@@ -1,6 +1,6 @@
 {
   "response": "OK",
   "chain": "ethereum",
-  "contract_address": "0xBCF159487177E115E7d5462Ec5c5F800a6071a0b",
-  "transaction_hash": "0xf1df992e2820fb37c4733b38124b29d116b6ed8405622a2399d94822d6ad296d"
+  "contract_address": "0x377f2fd104692E592A5259cF75756037AE180fcb",
+  "transaction_hash": "0xeadf5e31a6d63b0e2e52e103c2fefeab7e92ad79e46d3536611b9f5d46c90bc4"
 }
