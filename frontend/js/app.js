@@ -46,12 +46,16 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
+var infoText = document.getElementById("mobile-popup");
+var containerNotConnected = document.getElementById("welcomePanel");
+var header = document.getElementById("Header");
 if (/Mobi|Android/i.test(navigator.userAgent)) {
-  console.log("Detected Mobile");
-    // mobile!
+  console.log("Detected Mobile", infoText, containerNotConnected, header);
+  containerNotConnected.style.opacity=0;
 }
 else{
   console.log("Detected Desktop");
+  infoText.hidden=true;
 }
 
 const updateConnectStatus = async () => {
