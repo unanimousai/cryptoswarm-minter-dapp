@@ -46,6 +46,14 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
+if (/Mobi|Android/i.test(navigator.userAgent)) {
+  console.log("Detected Mobile");
+    // mobile!
+}
+else{
+  console.log("Detected Desktop");
+}
+
 const updateConnectStatus = async () => {
   const onboarding = new MetaMaskOnboarding();
   const onboardButton = document.getElementById("connectWallet");
