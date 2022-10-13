@@ -49,6 +49,7 @@ window.addEventListener("DOMContentLoaded", async () => {
 var infoText = document.getElementById("mobile-popup");
 var containerNotConnected = document.getElementById("welcomePanel");
 var header = document.getElementById("Header");
+var mobileAcceptButton = document.getElementById("mobile-button-accept");
 if (/Mobi|Android/i.test(navigator.userAgent)) {
   console.log("Detected Mobile", infoText, containerNotConnected, header);
   containerNotConnected.style.opacity=0;
@@ -57,6 +58,14 @@ else{
   console.log("Detected Desktop");
   infoText.hidden=true;
 }
+
+console.log("button: ", mobileAcceptButton)
+mobileAcceptButton.onclick = function(){
+  containerNotConnected.style.opacity=1;
+  infoText.style.left="100%";
+  console.log("toggle: ", mobileAcceptButton)
+}
+
 
 const updateConnectStatus = async () => {
   const onboarding = new MetaMaskOnboarding();
