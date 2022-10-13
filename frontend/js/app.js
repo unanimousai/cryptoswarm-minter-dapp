@@ -62,7 +62,8 @@ else{
 console.log("button: ", mobileAcceptButton)
 mobileAcceptButton.onclick = function(){
   containerNotConnected.style.opacity=1;
-  infoText.style.left="100%";
+  infoText.style.top="100%";
+  infoText.style.opacity="0";
   console.log("toggle: ", mobileAcceptButton)
 }
 
