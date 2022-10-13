@@ -3,7 +3,7 @@ const chain = 'ethereum'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the CryptoSwarm AI NFT Project";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'CryptoSwarm AI is a collective Super Intelligence for predicting crypto assets using hundreds of human forecasters and the power of Swarm AI. For more information, visit our <a href="https://www.cryptoswarm.ai">website</a>. For help minting, see our <a href="https://www.cryptoswarm.ai/help">help page</a> or talk to us on our <a href="https://discord.com/invite/js4g9Xqa3K">discord</a>.';
+const welcome_p = 'CryptoSwarm AI is a collective Super Intelligence for predicting crypto assets using hundreds of human forecasters and the power of Swarm AI. For more information, visit our <a href="https://www.cryptoswarm.ai">website</a>. For help minting, see our <a href="https://www.cryptoswarm.ai/help">help page</a> or talk to us on our <a href="https://discord.com/invite/js4g9Xqa3K">discord</a>.<br><br>🎉 Join our <a href="https://twitter.com/i/spaces/1lPKqBQyggAGb">live Twitter space</a> for the mint party 🎉';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
