@@ -73,10 +73,35 @@ const ROYALTY_ADDRESS = "0xcdC2803abF895c32F1EcCBfca6a78CcEFB7d786B"; // Address
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = [
-  "0xC9d2De58EF8c12C8Dc40d35f0763135c68D33201",
-  "0xDe61E744E7C7A18B049f5308aDe2109dFc7F3620", 
-  "0x0d798b192a2652658515b7a6E51D6e01C8f8e00E", 
-  "0x9E5F1C986152358b415ba2164Bd8431Ccbd5aBf3"
+  "0xC9d2De58EF8c12C8Dc40d35f0763135c68D33201", // Test accounts
+  "0xDe61E744E7C7A18B049f5308aDe2109dFc7F3620", // Test accounts
+  "0x0d798b192a2652658515b7a6E51D6e01C8f8e00E", // Test accounts
+  "0x9E5F1C986152358b415ba2164Bd8431Ccbd5aBf3", // Test accounts
+  "0xcF196E948cB0A1f8fD69C1CF7ad6098710788AF4", // Owner account
+  "0xcdC2803abF895c32F1EcCBfca6a78CcEFB7d786B", // Genius collective account for revenue share
+  "0xDe61E744E7C7A18B049f5308aDe2109dFc7F3620", // From discord bot round 1
+  "0x7768BEb2b062dC7a7242d872219dE436949BD3Eb", // From discord bot round 1
+  "0x0A39967415AAD84e563203871c140a2e7D5F3345", // From discord bot round 1
+  "0x218bEdDbe74e98f8D79041E2dFcF4033D4f72D79", // From discord bot round 1
+  "0xc6ddD3E9e2debb5247877Fc16160963682b6d1B3", // From discord bot round 1
+  "0xfA075e0967D2f8dD109082ee63339900f92D3db5", // From discord bot round 1
+  "0x32fc89eA9895Bf05E4C5086A7a7a48d622a0CafF", // From discord bot round 1
+  "0x58adc13aA913c0dc6D343E31161AEfF6E48b71DC", // From discord bot round 1
+  "0xe33EC84f97dd49FCFE28e6918E23401C8eD77d32", // From discord bot round 1
+  "0x71cEFBdb39DE12EEa167Eb0832A84d15C287a4B3", // From discord bot round 1
+  "0x2227116491503777e1Ce751c5F2477f918fc07fE", // From discord bot round 1
+  "0x4fbfadF58cf32E7c616ED09D74318fe30C7071d4", // From discord bot round 1
+  "0x33e8f471701B082A37a2d08f038646BD01d8B526", // From discord bot round 1
+  "0x9E2Ac8A126f652153990F235766f86561d414031", // From discord bot round 1
+  "0x8e5C702f15d7Fa4b129aF7d538804Bd7a0DA2D57", // From discord bot round 1
+  "0x1336b731a7F9C7cBd6a80C422a0d7De1e853737c", // From discord bot round 1
+  "0x04893a2D170bE9Da12bB86e33eA38ae4624783Bc", // From discord bot round 1
+  "0xA29565Dfb42dA36Dbf63933C45A07354c97a7210", // From discord bot round 1
+  "0xb232519FA664c04BF642bb587c1DD304ae2d8255", // From discord bot round 1
+  "0xD88DD72D7f19AF6487a45DeE4f4c5F888ba9007a", // From discord bot round 1
+  "0x24720B809D7168854080D638Dc125Ba81570C585", // From discord bot round 1
+  "0x868F0CAa91d1949c26eB4fA61cB5c38BE30b2b9b", // From discord bot round 1
+  "0xf3296be8CA241Ed03111b732810691DD01716543"  // From discord bot round 1
 ]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
