@@ -50,18 +50,18 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'ethereum'; // only rinkeby, polygon, or ethereum
+const CHAIN = 'goerli'; // only rinkeby, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'CryptoSwarm AI';
 const CONTRACT_SYMBOL = 'CSAI';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xcF196E948cB0A1f8fD69C1CF7ad6098710788AF4';  /// TODO: This is Unanimous' wallet, but should be Cryptonomous': 0xcF196E948cB0A1f8fD69C1CF7ad6098710788AF4
-const TREASURY_ADDRESS = '0xcF196E948cB0A1f8fD69C1CF7ad6098710788AF4';  /// TODO: This is Unanimous' wallet, but should be Cryptonomous': 0xcF196E948cB0A1f8fD69C1CF7ad6098710788AF4
+const OWNER_ADDRESS = '0xcdC2803abF895c32F1EcCBfca6a78CcEFB7d786B';
+const TREASURY_ADDRESS = '0x377f2fd104692E592A5259cF75756037AE180fcb';
 const MAX_SUPPLY = 350; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 1; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
-const TEAM_RESERVE = 50; // How many of the max supply can we mint for free
+const TEAM_RESERVE = 66; // How many of the max supply can we mint for free
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-10-14T20:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
