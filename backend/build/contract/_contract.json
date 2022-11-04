@@ -1,6 +1,6 @@
 {
   "response": "OK",
   "chain": "goerli",
-  "contract_address": "0x3ae608594Bf0c4C2C1B3761f87D604ae4c0a6BE5",
-  "transaction_hash": "0x7ddab76e9b129881bc3f0665b787f1cbbdb7ab38fa8a0d2aa109d03ac62c7992"
+  "contract_address": "0xc53bFe2a0E0b85863d1bb2e56dedC1269e058720",
+  "transaction_hash": "0x0a896a3b661bfe8f2bfc7667868fadbf8a9743b18298748676e16966bec019d9"
 }
