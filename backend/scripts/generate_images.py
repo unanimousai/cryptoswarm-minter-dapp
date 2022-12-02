@@ -4,6 +4,8 @@ import random
 import shutil
 from PIL import Image
 
+random.seed(0)
+
 def generate_images():
     def day(j, size):
         if j == 0:
@@ -37,16 +39,16 @@ def generate_images():
         shutil.copy('../Artwork/{}'.format(image), '../build/images/{}.png'.format(i))
 
         data = {
-            "name": "CryptoSwarm AI TEST {}".format(i),
+            "name": "CryptoSwarm AI {}".format(i),
             "description": "CryptoSwarm AI is a collective Super Intelligence for predicting crypto assets using "
                            "hundreds of human forecasters and the power of Swarm AI. \ Go to "
                            "https://www.cryptoswarm.ai/ for more information, and join our Discord: "
                            "https://discord.gg/4g2ccHE8cv \ The Terms of Service of this NFT can be found here: \ "
-                           "https://ipfs.io/ipfs/bafkreibx363xs2jyvyrunk2rweaijr25w7qroy5auirpugco5qdl3dc3iy",
+                           "https://ipfs.io/ipfs/bafkreicszv5msey73anyqax7cbcs5bqfuv42y3yf426v2s5tma7spn4xci",
 
             "external_url": "https://www.cryptoswarm.ai/",
             "image": "ipfs://NewUriToReplace/{}.png".format(i),
-            "terms_of_service": "https://ipfs.io/ipfs/bafkreibx363xs2jyvyrunk2rweaijr25w7qroy5auirpugco5qdl3dc3iy",
+            "terms_of_service": "https://ipfs.io/ipfs/bafkreicszv5msey73anyqax7cbcs5bqfuv42y3yf426v2s5tma7spn4xci",
             "attributes": [
                 {
                     "trait_type": "Collection",
