@@ -3,6 +3,8 @@ import arsenal.credentials as credentials
 import arsenal.database as database
 import numpy as np
 import pandas as pd
+import psycopg2
+
 
 def get_performance_points():
     data = database.get_data_from_query(databaseName="CryptoSwarm",
@@ -32,10 +34,15 @@ def get_performance_points():
 
     return token_df
 
+def update_database(token_df):
+    conn = psycopg2.connect(dbname="CryptoSwarm", user=credentials.USERNAME_FORECAST,
+                            host=credentials.HOSTNAME_FORECAST, password=credentials.PASSWORD_FORECAST)
+    database.clear_table(conn, "tokens")
+    simple_df = token_df[["Token ID", "Owner", "User", "Performance Points"]]
+    simple_df = simple_df.rename(columns={"Token ID": "ID", "Owner": "HolderWallet", "User":"OwnerName", "Performance Points": "Performance"})
+    database.upload_dataframe(conn, simple_df, "tokens")
 
-def update_metadata():
-    token_df = get_performance_points()
-
+def update_jsons(token_df):
     for i in range(len(token_df)):
         # First, update json
         with open("../build/json/%s.json"%i, "rb") as f:
@@ -51,6 +58,10 @@ def update_metadata():
         print("updated: ", j)
 
 
+def update_metadata():
+    token_df = get_performance_points()
+    update_database(token_df)
+    update_jsons(token_df)
 
 
 if __name__ == "__main__":
