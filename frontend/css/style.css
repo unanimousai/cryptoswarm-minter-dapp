@@ -176,6 +176,10 @@ section {
   align-items: center;
 }
 
+.ToS {
+  color: var(--accent-color);
+}
+
 .countdown ul {
   display: flex;
   gap: 2rem;
