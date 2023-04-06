@@ -13,7 +13,7 @@ def get_performance_points():
                                         password=credentials.PASSWORD_FORECAST,
                                         query="select * from public.session_scores")
 
-    df = pd.DataFrame(data, columns=["forecaster", "score", "percentile", "payout", "session", "date", "swarmID", "payout_numeric", "rank"])
+    df = pd.DataFrame(data, columns=["forecaster", "score", "percentile", "payout", "session", "date", "swarmID", "payout_numeric", "rank", "performance_points", "performance_points_bonus"])
 
     df["forecaster"] = df["forecaster"].apply(lambda x: x.lower())
     crypto_users = df["forecaster"].unique()

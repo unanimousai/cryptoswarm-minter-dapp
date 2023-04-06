@@ -110,7 +110,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "CryptoSwarm AI is a collective Super Intelligence for predicting crypto assets using hundreds of human forecasters and the power of Swarm AI."; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "CryptoSwarm AI is a collective Super Intelligence for predicting crypto assets using hundreds of human forecasters and the power of Swarm AI. \n Go to https://www.cryptoswarm.ai/ for more information, and join our Discord: https://discord.gg/4g2ccHE8cv \n The Terms of Service of this NFT can be found here: https://ipfs.io/ipfs/bafkreihsq3amdl5cmorc2sqc73bor2kbdxprwmnr5bgxe7m2rdy2tdobau"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
